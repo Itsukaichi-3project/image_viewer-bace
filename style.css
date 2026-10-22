@@ -43,4 +43,8 @@ body,#main-content{
     width:20%;
     height: 90%;
     border:1px solid #ddd;
+    background-color: #4D83C4;
+}
+.disable{
+  opacity: 0.5;
 }
