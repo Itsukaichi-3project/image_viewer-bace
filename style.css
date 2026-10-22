@@ -1,0 +1,46 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body,.main-content{
+    width:100%;
+    height:100%;
+    background-color: #f9f9f9;
+}
+
+.zoom-container {
+  width: 100%;
+  max-width: 800px; /* お好みの表示サイズ */
+  height: 90%;
+  overflow: hidden; /* 枠外にはみ出た画像を隠す */
+  border: 1px solid #ddd;
+  position: relative;
+  touch-action: none; /* スマホでのブラウザ標準のズームやスクロールを無効化 */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.zoom-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: grab; /* つまめるカーソルにする */
+}
+
+.zoom-container img:active {
+  cursor: grabbing; /* ドラッグ中のカーソル */
+}
+
+.buttons-container{
+    width:100%;
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.move-button{
+    border-radius: 3px;
+    width:20%;
+    height: 90%;
+    border:1px solid #ddd;
+}
