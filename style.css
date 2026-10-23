@@ -15,7 +15,6 @@ body,#main-content{
   overflow: hidden; /* 枠外にはみ出た画像を隠す */
   border: 1px solid #ddd;
   position: relative;
-  touch-action: none; /* スマホでのブラウザ標準のズームやスクロールを無効化 */
   margin: 0 auto;
   box-sizing: border-box;
 }
